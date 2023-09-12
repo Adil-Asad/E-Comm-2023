@@ -2,7 +2,7 @@ import './App.css'
 import Home from './pages/Home'
 import SignupPage from './pages/SignupPage'
 import LoginPage from './pages/LoginPage'
-import Cart from './features/cart/Cart'
+import CartPage from './pages/CartPage'
 
 import {
   createBrowserRouter,
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/cart',
-    element: <Cart></Cart>,
+    element: <CartPage></CartPage>,
   },
 ])
 
